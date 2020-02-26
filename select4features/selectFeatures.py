@@ -19,15 +19,27 @@ wine_w = pd.read_csv("winequality-white.csv", sep=';')
 wine_w[C]= np.zeros(wine_w.shape[0])
 wine_r[C]= np.ones(wine_r.shape[0])
 wine = pd.concat([wine_w,wine_r])
-
 wine[D] = StandardScaler().fit_transform(wine[D])
 
-n_neighborslist = list(range(1,51))
-X_train, X_test, y_train, y_test = train_test_split(wine[D].values, np.ravel(wine[[L]]), test_size=0.2, random_state = 42)
+params = {
+    'uniform': {},
+    'manhattan': {'weights':"distance", 'p':1},
+    'euclidean': {'weights':"distance", 'p':2}
+}
 
-with open('output.csv','a') as fd:
+X_train, X_test, y_train, y_test = train_test_split(wine[D].values, np.ravel(wine[[C]]), test_size=0.2, random_state = 42)
+resDictST = {}
+resDict = {'uniform': {}, 'manhattan': {}, 'euclidean': {}}
+selectedDict = {'uniform': {}, 'manhattan': {}, 'euclidean': {}}
+for key, v in params.items():
+    resDictST[key] = [accuracy_score(y_test, KNeighborsClassifier(n_neighbors=k, **v).fit(X_train, y_train).predict(X_test)) for k in range(1,51)]
     for i in itertools.combinations(range(len(D)), 4):
-        res = [accuracy_score(y_test, KNeighborsClassifier(n_neighbors=k, weights = "distance", p = 2).fit(X_train[:,list(i)], y_train).predict(X_test[:,list(i)])) for k in n_neighborslist]
-        fd.write(','.join([str(x) for x in [D[y] for y in i] + res]) + '\n')
-# st = [accuracy_score(y_test, KNeighborsClassifier(n_neighbors=k, weights = "distance", p = 2).fit(X_train, y_train).predict(X_test)) for k in n_neighborslist]
-# print(st)
+        resDict[key][tuple(D[y] for y in i)] = [accuracy_score(y_test, KNeighborsClassifier(n_neighbors=k, **params[key]).fit(X_train[:,list(i)], y_train).predict(X_test[:,list(i)])) for k in range(1,51)]
+
+for key in params.keys():
+    for k, v in resDict[key].items():
+        if sum(v[i] > resDictST[key][i] for i in range(len(resDictST[key]))) > len(resDictST[key])//2:
+            selectedDict[key][k] = v
+
+for k, v in selectedDict.items():
+    print([k, v])

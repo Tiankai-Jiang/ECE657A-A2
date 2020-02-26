@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  23 FEB 2020 14:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  26 FEB 2020 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -591,8 +591,7 @@ File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
-)))
-No file asg2Q1.aux.
+))) (./asg2Q1.aux)
 \openout1 = `asg2Q1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -607,6 +606,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -735,85 +735,143 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--75
  []
 
 [2 <./Q1_zscore_normalization.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 79.
+LaTeX Font Info:    Try loading font information for U+msa on input line 78.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 79.
+LaTeX Font Info:    Try loading font information for U+msb on input line 78.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<Q1_BestParam_color.png, id=21, 433.62pt x 289.08pt>
+File: Q1_BestParam_color.png Graphic file (type png)
+<use Q1_BestParam_color.png>
+Package pdftex.def Info: Q1_BestParam_color.png  used on input line 82.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+<Q1_BestParam_quality.png, id=22, 433.62pt x 289.08pt>
+File: Q1_BestParam_quality.png Graphic file (type png)
+<use Q1_BestParam_quality.png>
+Package pdftex.def Info: Q1_BestParam_quality.png  used on input line 83.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 79.
+(amsmath)                 on input line 87.
 
-<./select4features/color_e.png, id=21, 409.2891pt x 299.4387pt>
+[3 <./Q1_all_features_color.png> <./Q1_all_features_quality.png> <./Q1_BestPara
+m_color.png> <./Q1_BestParam_quality.png>]
+<./select4features/color_e.png, id=31, 409.2891pt x 299.4387pt>
 File: ./select4features/color_e.png Graphic file (type png)
 <use ./select4features/color_e.png>
-Package pdftex.def Info: ./select4features/color_e.png  used on input line 83.
+Package pdftex.def Info: ./select4features/color_e.png  used on input line 91.
 (pdftex.def)             Requested size: 256.0748pt x 187.34518pt.
-<./select4features/color_u.png, id=22, 409.2891pt x 299.4387pt>
+<./select4features/color_u.png, id=32, 409.2891pt x 299.4387pt>
 File: ./select4features/color_u.png Graphic file (type png)
 <use ./select4features/color_u.png>
-Package pdftex.def Info: ./select4features/color_u.png  used on input line 88.
+Package pdftex.def Info: ./select4features/color_u.png  used on input line 96.
 (pdftex.def)             Requested size: 256.0748pt x 187.34518pt.
-[3 <./Q1_all_features_color.png> <./Q1_all_features_quality.png> <./select4feat
-ures/color_e.png>]
-<./select4features/quality_e.png, id=31, 403.0257pt x 299.4387pt>
+ [4 <./select4features/color_e.png> <./select4features/color_u.png>]
+<./select4features/quality_e.png, id=40, 403.0257pt x 299.4387pt>
 File: ./select4features/quality_e.png Graphic file (type png)
 <use ./select4features/quality_e.png>
-Package pdftex.def Info: ./select4features/quality_e.png  used on input line 94
-.
+Package pdftex.def Info: ./select4features/quality_e.png  used on input line 10
+2.
 (pdftex.def)             Requested size: 256.0748pt x 190.26482pt.
-<./select4features/quality_u.png, id=32, 403.0257pt x 299.4387pt>
+<./select4features/quality_u.png, id=41, 403.0257pt x 299.4387pt>
 File: ./select4features/quality_u.png Graphic file (type png)
 <use ./select4features/quality_u.png>
-Package pdftex.def Info: ./select4features/quality_u.png  used on input line 99
-.
+Package pdftex.def Info: ./select4features/quality_u.png  used on input line 10
+7.
 (pdftex.def)             Requested size: 256.0748pt x 190.26482pt.
- [4 <./select4features/color_u.png> <./select4features/quality_e.png>]
-<Q1_PCA_color.png, id=38, 433.62pt x 289.08pt>
+<Q1_PCA_color.png, id=42, 433.62pt x 289.08pt>
 File: Q1_PCA_color.png Graphic file (type png)
 <use Q1_PCA_color.png>
-Package pdftex.def Info: Q1_PCA_color.png  used on input line 108.
+Package pdftex.def Info: Q1_PCA_color.png  used on input line 116.
 (pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
-<Q1_PCA_quality.png, id=39, 433.62pt x 289.08pt>
+<Q1_PCA_quality.png, id=43, 433.62pt x 289.08pt>
 File: Q1_PCA_quality.png Graphic file (type png)
 <use Q1_PCA_quality.png>
-Package pdftex.def Info: Q1_PCA_quality.png  used on input line 109.
+Package pdftex.def Info: Q1_PCA_quality.png  used on input line 117.
 (pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
-<Q1_LDA_color.png, id=40, 433.62pt x 289.08pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--118
+
+ []
+
+[5 <./select4features/quality_e.png> <./select4features/quality_u.png>]
+<Q1_LDA_color.png, id=49, 433.62pt x 289.08pt>
 File: Q1_LDA_color.png Graphic file (type png)
 <use Q1_LDA_color.png>
-Package pdftex.def Info: Q1_LDA_color.png  used on input line 117.
+Package pdftex.def Info: Q1_LDA_color.png  used on input line 124.
 (pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
-<Q1_LDA_quality.png, id=41, 433.62pt x 289.08pt>
+<Q1_LDA_quality.png, id=50, 433.62pt x 289.08pt>
 File: Q1_LDA_quality.png Graphic file (type png)
 <use Q1_LDA_quality.png>
-Package pdftex.def Info: Q1_LDA_quality.png  used on input line 118.
+Package pdftex.def Info: Q1_LDA_quality.png  used on input line 125.
 (pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
- [5 <./select4features/quality_u.png> <./Q1_PCA_color.png> <./Q1_PCA_quality.pn
-g>] [6 <./Q1_LDA_color.png> <./Q1_LDA_quality.png>] (./asg2Q1.aux) ) 
+<Q1_PCA_ifNormalized.png, id=51, 433.62pt x 289.08pt>
+File: Q1_PCA_ifNormalized.png Graphic file (type png)
+<use Q1_PCA_ifNormalized.png>
+Package pdftex.def Info: Q1_PCA_ifNormalized.png  used on input line 137.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+<Q1_LDA_ifNormalized.png, id=52, 433.62pt x 289.08pt>
+File: Q1_LDA_ifNormalized.png Graphic file (type png)
+<use Q1_LDA_ifNormalized.png>
+Package pdftex.def Info: Q1_LDA_ifNormalized.png  used on input line 138.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--139
+
+ []
+
+[6 <./Q1_PCA_color.png> <./Q1_PCA_quality.png> <./Q1_LDA_color.png> <./Q1_LDA_q
+uality.png>] [7]
+<Q1_PCA_Scatter_color.png, id=66, 433.62pt x 289.08pt>
+File: Q1_PCA_Scatter_color.png Graphic file (type png)
+<use Q1_PCA_Scatter_color.png>
+Package pdftex.def Info: Q1_PCA_Scatter_color.png  used on input line 145.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+<Q1_LDA_Scatter_color.png, id=67, 433.62pt x 289.08pt>
+File: Q1_LDA_Scatter_color.png Graphic file (type png)
+<use Q1_LDA_Scatter_color.png>
+Package pdftex.def Info: Q1_LDA_Scatter_color.png  used on input line 146.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+<Q1_PCA_Scatter_quality.png, id=68, 433.62pt x 289.08pt>
+File: Q1_PCA_Scatter_quality.png Graphic file (type png)
+<use Q1_PCA_Scatter_quality.png>
+Package pdftex.def Info: Q1_PCA_Scatter_quality.png  used on input line 152.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+<Q1_LDA_Scatter_quality.png, id=69, 433.62pt x 289.08pt>
+File: Q1_LDA_Scatter_quality.png Graphic file (type png)
+<use Q1_LDA_Scatter_quality.png>
+Package pdftex.def Info: Q1_LDA_Scatter_quality.png  used on input line 153.
+(pdftex.def)             Requested size: 240.23016pt x 160.15457pt.
+ [8 <./Q1_PCA_ifNormalized.png> <./Q1_LDA_ifNormalized.png> <./Q1_PCA_Scatter_c
+olor.png> <./Q1_LDA_Scatter_color.png>] [9 <./Q1_PCA_Scatter_quality.png> <./Q1
+_LDA_Scatter_quality.png>] (./asg2Q1.aux) ) 
 Here is how much of TeX's memory you used:
- 15830 strings out of 492616
- 300508 string characters out of 6129482
- 360460 words of memory out of 5000000
- 19412 multiletter control sequences out of 15000+600000
+ 15872 strings out of 492616
+ 301642 string characters out of 6129482
+ 363460 words of memory out of 5000000
+ 19444 multiletter control sequences out of 15000+600000
  8899 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,49p,487b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local
-/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/
-texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/t
-exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
-live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on asg2Q1.pdf (6 pages, 6016844 bytes).
+ 55i,12n,49p,989b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on asg2Q1.pdf (9 pages, 6980742 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 30 compressed objects within 1 object stream
+ 106 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

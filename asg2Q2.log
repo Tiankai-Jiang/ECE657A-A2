@@ -815,30 +815,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--124
  []
 
 [4]
-<Q2_LDATop3.png, id=33, 1746.7659pt x 1140.05925pt>
-File: Q2_LDATop3.png Graphic file (type png)
-<use Q2_LDATop3.png>
-Package pdftex.def Info: Q2_LDATop3.png  used on input line 137.
-(pdftex.def)             Requested size: 512.1496pt x 334.26186pt.
+<Q2_LDATop3.png, id=33, 1746.7659pt x 114.
+<template> }$\hfill \endtemplate 
+                                 
+l.130 \end{split}
+                 
+? 
+! Emergency stop.
+<template> }$\hfill \endtemplate 
+                                 
+l.130 \end{split}
+                 
+End of file on the terminal!
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 137--138
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--143
-
- []
-
-[5 <./Q2_LDATop3.png>] (./asg2Q2.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 17590 strings out of 492616
- 322677 string characters out of 6129482
+ 17583 strings out of 492616
+ 322566 string characters out of 6129482
  569956 words of memory out of 5000000
- 21155 multiletter control sequences out of 15000+600000
+ 21151 multiletter control sequences out of 15000+600000
  9246 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,16n,49p,487b,1433s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+i,16n,49p,487b,1433s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/font
 s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fonts/
