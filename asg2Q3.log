@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  26 FEB 2020 08:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 FEB 2020 15:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -737,91 +737,91 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 ABD: EveryShipout initializing macros
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 10000) in paragraph at lines 63--66
 
  []
 
 <Q3_Kernal_PCA.png, id=4, 382.5492pt x 264.99pt>
 File: Q3_Kernal_PCA.png Graphic file (type png)
 <use Q3_Kernal_PCA.png>
-Package pdftex.def Info: Q3_Kernal_PCA.png  used on input line 66.
-(pdftex.def)             Requested size: 426.79134pt x 295.64653pt.
+Package pdftex.def Info: Q3_Kernal_PCA.png  used on input line 67.
+(pdftex.def)             Requested size: 398.33858pt x 275.93892pt.
 <Q3_Isomap.png, id=6, 385.9218pt x 264.99pt>
 File: Q3_Isomap.png Graphic file (type png)
 <use Q3_Isomap.png>
-Package pdftex.def Info: Q3_Isomap.png  used on input line 67.
-(pdftex.def)             Requested size: 426.79134pt x 293.06279pt.
+Package pdftex.def Info: Q3_Isomap.png  used on input line 68.
+(pdftex.def)             Requested size: 398.33858pt x 273.525pt.
 <Q3_Locally_Linear_Embedding.png, id=7, 389.0535pt x 264.99pt>
 File: Q3_Locally_Linear_Embedding.png Graphic file (type png)
 <use Q3_Locally_Linear_Embedding.png>
-Package pdftex.def Info: Q3_Locally_Linear_Embedding.png  used on input line 68
+Package pdftex.def Info: Q3_Locally_Linear_Embedding.png  used on input line 69
 .
 (pdftex.def)             Requested size: 426.79134pt x 290.70952pt.
 <Q3_Laplacian_Eigenmap.png, id=8, 408.8073pt x 264.99pt>
 File: Q3_Laplacian_Eigenmap.png Graphic file (type png)
 <use Q3_Laplacian_Eigenmap.png>
-Package pdftex.def Info: Q3_Laplacian_Eigenmap.png  used on input line 69.
+Package pdftex.def Info: Q3_Laplacian_Eigenmap.png  used on input line 70.
 (pdftex.def)             Requested size: 426.79134pt x 276.66269pt.
 <Q3_t-SNE.png, id=9, 379.4175pt x 264.99pt>
 File: Q3_t-SNE.png Graphic file (type png)
 <use Q3_t-SNE.png>
-Package pdftex.def Info: Q3_t-SNE.png  used on input line 70.
+Package pdftex.def Info: Q3_t-SNE.png  used on input line 71.
 (pdftex.def)             Requested size: 426.79134pt x 298.08066pt.
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./Q3_Kernal_PCA.png> <./Q3_Isomap.png>] [2 <./Q3_Locally_Linear_Embedding.png
 > <./Q3_Laplacian_Eigenmap.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 78.
+LaTeX Font Info:    Try loading font information for U+msa on input line 79.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 78.
+LaTeX Font Info:    Try loading font information for U+msb on input line 79.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--84
+Underfull \hbox (badness 10000) in paragraph at lines 73--85
 
  []
 
 [3 <./Q3_t-SNE.png>] [4] [5] (./asg2Q3.aux) ) 
 Here is how much of TeX's memory you used:
- 17133 strings out of 492616
- 318610 string characters out of 6129482
- 562956 words of memory out of 5000000
- 20705 multiletter control sequences out of 15000+600000
- 8899 words of font info for 34 fonts, out of 8000000 for 9000
+ 17135 strings out of 492616
+ 318632 string characters out of 6129482
+ 563956 words of memory out of 5000000
+ 20706 multiletter control sequences out of 15000+600000
+ 9198 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,48p,667b,267s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dis
@@ -829,13 +829,14 @@ t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy8.pfb>
-Output written on asg2Q3.pdf (5 pages, 789993 bytes).
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on asg2Q3.pdf (5 pages, 799795 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

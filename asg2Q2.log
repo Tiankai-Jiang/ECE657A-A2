@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  27 FEB 2020 22:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  28 FEB 2020 15:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,24 +658,33 @@ File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
 )))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-)
-(./asg2Q2.aux)
-\openout1 = `asg2Q2.aux'.
+! Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.87 }
+      
+? 
+! Emergency stop.
+<to be read again> 
+                   \protect 
+l.87 }
+      
+End of file on the terminal!
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
-LaTeX Font Info:    ... okay on input line 65.
+ 
+Here is how much of TeX's memory you used:
+ 16694 strings out of 492616
+ 310712 string characters out of 6129482
+ 373978 words of memory out of 5000000
+ 20325 multiletter control sequences out of 15000+600000
+ 3938 words of font info for 15 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,0n,48p,894b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+nfo:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -780,116 +789,105 @@ ABD: EveryShipout initializing macros
 <Q2_ScreePlot.png, id=4, 370.986pt x 264.99pt>
 File: Q2_ScreePlot.png Graphic file (type png)
 <use Q2_ScreePlot.png>
-Package pdftex.def Info: Q2_ScreePlot.png  used on input line 70.
+Package pdftex.def Info: Q2_ScreePlot.png  used on input line 94.
 (pdftex.def)             Requested size: 398.33858pt x 284.53926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
 
 <Q2_PCATop19.png, id=6, 1737.19012pt x 1136.8071pt>
 File: Q2_PCATop19.png Graphic file (type png)
 <use Q2_PCATop19.png>
-Package pdftex.def Info: Q2_PCATop19.png  used on input line 76.
+Package pdftex.def Info: Q2_PCATop19.png  used on input line 100.
 (pdftex.def)             Requested size: 512.1496pt x 335.14703pt.
 
-Overfull \hbox (11.6656pt too wide) in paragraph at lines 76--77
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 100--101
  [] 
  []
 
 [1{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
  <./Q2_ScreePlot.png>]
-<Q2_PCA01.png, id=15, 393.6306pt x 266.4354pt>
+<Q2_PCA01.png, id=16, 393.6306pt x 266.4354pt>
 File: Q2_PCA01.png Graphic file (type png)
 <use Q2_PCA01.png>
-Package pdftex.def Info: Q2_PCA01.png  used on input line 84.
+Package pdftex.def Info: Q2_PCA01.png  used on input line 108.
 (pdftex.def)             Requested size: 240.23016pt x 162.60258pt.
-<Q2_PCA45.png, id=16, 393.6306pt x 266.6763pt>
+<Q2_PCA45.png, id=17, 393.6306pt x 266.6763pt>
 File: Q2_PCA45.png Graphic file (type png)
 <use Q2_PCA45.png>
-Package pdftex.def Info: Q2_PCA45.png  used on input line 85.
+Package pdftex.def Info: Q2_PCA45.png  used on input line 109.
 (pdftex.def)             Requested size: 240.23016pt x 162.74962pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--86
+Underfull \hbox (badness 10000) in paragraph at lines 102--110
 
  []
 
 [2 <./Q2_PCATop19.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 88--93
+Underfull \hbox (badness 10000) in paragraph at lines 112--117
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
-LaTeX Font Info:    Try loading font information for U+msa on input line 101.
-
+LaTeX Font Info:    Try loading font information for U+msa on input line 119.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 101.
+LaTeX Font Info:    Try loading font information for U+msb on input line 119.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 104.
+) [3 <./Q2_PCA01.png> <./Q2_PCA45.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 151--158
 
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 104.
-
-Overfull \hbox (42.36507pt too wide) in paragraph at lines 104--105
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[3 <./Q2_PCA01.png> <./Q2_PCA45.png>]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.125 ...}\) \norm{\overline{X}-UU^T\overline{X}}_
-                                                  F^2
-? 
-! Emergency stop.
-<inserted text> 
-                $
-l.125 ...}\) \norm{\overline{X}-UU^T\overline{X}}_
-                                                  F^2
-End of file on the terminal!
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 167--172
 
- 
+ []
+
+<Q2_LDATop3.png, id=36, 1746.7659pt x 1140.05925pt>
+File: Q2_LDATop3.png Graphic file (type png)
+<use Q2_LDATop3.png>
+Package pdftex.def Info: Q2_LDATop3.png  used on input line 173.
+(pdftex.def)             Requested size: 512.1496pt x 334.26186pt.
+
+Overfull \hbox (11.6656pt too wide) in paragraph at lines 173--174
+ [] 
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 175--183
+
+ []
+
+[6 <./Q2_LDATop3.png>] [7] (./asg2Q2.aux) ) 
 Here is how much of TeX's memory you used:
- 18237 strings out of 492616
- 331281 string characters out of 6129482
- 582678 words of memory out of 5000000
- 21788 multiletter control sequences out of 15000+600000
- 9246 words of font info for 35 fonts, out of 8000000 for 9000
+ 18225 strings out of 492616
+ 330980 string characters out of 6129482
+ 652528 words of memory out of 5000000
+ 21777 multiletter control sequences out of 15000+600000
+ 11083 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,49p,894b,1433s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
-ut PDF file produced!
-
- 55i,17n,49p,894b,1433s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,17n,49p,894b,1524s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2019/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmti12.pfb>
-Output written on asg2Q2.pdf (6 pages, 4239113 bytes).
+nts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt10.pfb>
+Output written on asg2Q2.pdf (7 pages, 4268387 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 90 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

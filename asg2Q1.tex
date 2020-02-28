@@ -58,6 +58,7 @@
 
 \begin{document}
 \noindent
+{\LARGE The source code is at the end of this document}\\
 \textbf{\large Question 1:}\\
 \textbf{Normalization}
 \begin{center}
@@ -65,7 +66,7 @@
     \includegraphics[width=17cm]{Q1_zscore_normalization.png}
 \end{center}
 \noindent
-The first graph is plotted without normalization and the second is plotted after z-score normalization. Points in both plots have the same distribution. However, the range of the axes of the unnormalized plot varies with each feature, but that of the normalized plot are all the same -- the majority of points scattered between -2 to 5 on both axes, with a mean of zero.\\\\
+The first graph is plotted without normalization and the second is plotted after z-score normalization. Points in both plots have the same distribution. However, the range of the axes of the unnormalized plot varies with each feature, but that of the normalized plot are all the same -- the majority of points scattered between -2 to 5 on both axes, with a mean of zero.\\\\\\
 \textbf{KNN Classification With All Features}
 \begin{figure}[H]
 \captionsetup[subfigure]{labelformat=empty}
@@ -107,8 +108,8 @@ For quality prediction under uniform, using 'volatile acidity', 'total sulfur di
     \includegraphics[width=9cm]{./select4features/quality_u.png}
 \end{center}
 \noindent
-For color prediction, using euclidean+['residual sugar', 'total sulfur dioxide', 'density', 'alcohol'] has a better result than PCA and LDA.\\
-For quality prediction, using euclidean+['volatile acidity', 'total sulfur dioxide', 'sulphates', 'alcohol'] has a better result than PCA and LDA.\\\\
+Because using all features for classification is better than using PCA or LDA, if the result of selected 4 features is better than using all features, it will for sure be better than using PCA or LDA.\\ For color prediction, using euclidean+['residual sugar', 'total sulfur dioxide', 'density', 'alcohol'] has a better result than PCA or LDA.\\
+For quality prediction, using euclidean+['volatile acidity', 'total sulfur dioxide', 'sulphates', 'alcohol'] has a better result than PCA or LDA.\\\\\\
 \textbf{KNN Classification With PCA Components}
 \begin{figure}[H]
 \captionsetup[subfigure]{labelformat=empty}
@@ -154,5 +155,5 @@ Generally, LDA performs slightly better than PCA. And using distance weight is b
 \end{figure}
 \noindent
 \textbf{How does this compare or inform your understanding of the data from the pairplots or other results?}\\
-Since there are only two colors, we can only plot a 1-dimension graph for LDA. And to deal with the overlap, we draw all label 0 on $y=0$ and all label 1 on $y=1$. Two principle components split two colors clearly, while there is huge overlap between two colors in the 1D graph in LDA. But we cannot compare a 1D graph to a 2D graph so we cannot say PCA is better than LDA. Both algorithms perform poorly on predicting the quality using only two components, as all points are mixed together.
+Since there are only two colors, we can only plot a 1-dimension graph for LDA. And to deal with the overlap, we draw all label 0 on $y=0$ and all label 1 on $y=1$. Two principle components split two colors clearly, while there is huge overlap between two colors in the 1D graph in LDA. But we cannot compare a 1D graph to a 2D graph so we cannot say PCA is better than LDA. Both algorithms perform poorly on predicting the quality using only two components, as all points are mixed together. The scatter of each class in LDA plot is closer than PCA because LDA minimize the within class variance.
 \end{document}

@@ -61,9 +61,33 @@
 \fancyfoot[C]{\thepage}
 
 \setlength{\headheight}{15pt}
-\lstset{language=Python}
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    aboveskip={1.0\baselineskip},
+    belowskip={1.0\baselineskip},
+    columns=fixed,
+    extendedchars=true,
+    breaklines=true,
+    tabsize=4,
+    prebreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+    frame=lines,
+    showtabs=false,
+    showspaces=false,
+    showstringspaces=false,
+    keywordstyle=\color[rgb]{0.627,0.126,0.941},
+    commentstyle=\color[rgb]{0.133,0.545,0.133},
+    stringstyle=\color[rgb]{01,0,0},
+    numbers=left,
+    numberstyle=\small,
+    stepnumber=1,
+    numbersep=10pt,
+    captionpos=t,
+    escapeinside={\%*}{*)}
+}
 \begin{document}
 \noindent
+{\LARGE The source code is at the end of this document}\\
 \textbf{\large Question 2:}\\
 \textbf{Scree Plot}
 \begin{center}
@@ -114,6 +138,14 @@ s.dot(U)
 
 # Dual PCA
 np.diag(sigma).dot(Vt[:s.shape[1],:]).T
+
+# check if (sigma * Vt).T has the same result with build in PCA
+print(np.allclose(np.absolute(np.diag(sigma).dot(Vt[:s.shape[1],:]).T), np.absolute(PCA().fit_transform(s))))
+# True
+
+# check if (U.T.dot(s.T)).T, which is s.dot(U), has the same result with build in PCA
+print(np.allclose(np.absolute(s.dot(U)), np.absolute(PCA().fit_transform(s))))
+# True
 \end{lstlisting}
 \end{spacing}
 \noindent
@@ -134,7 +166,7 @@ Optimization problem: minimize the reconstruction error. $\stackunder{Minimize}{
 \end{split}
 \end{equation}
 \noindent
-The result indicates that minimizing the reconstruction error is equivalent to maximizing the trace of $U^TSU$, which is exactly what PCA is doing. Therefore, PCA is the best linear method for reconstruction.\\
+The result indicates that minimizing the reconstruction error is equivalent to maximizing the trace of $U^TSU$, which is exactly what PCA is doing. Therefore, PCA is the best linear method for reconstruction.\\\\
 \textbf{Projected Data With Top 4 Eigenvalues in LDA}
 \vspace*{-1.0cm}
 \begin{center}
@@ -147,5 +179,5 @@ Each LDA direction is mainly responsible for separating one or two classes, but 
 FDA optimization: $\stackunder{Maximize}{\textbf{U}}\;tr(U^TSU)$ s.t. $U^TS_WU=I$\\
 PCA optimization: $\stackunder{Maximize}{\textbf{U}}\;tr(U^TSU)$ s.t. $U^TU=I$\\
 FDA and PCA can be treated as the same optimization problem with different constraints. Since $S_W$ needs extra information(the label of the data), FDA is supervised linear transformation while PCA is unsupervised.\\
-Since the solution of FDA is the eigenvalues of $S_W^{-1}S_B$ and $S_B$ has rank $k-1$, where k is the number of classes, FDA only has $k-1$ solutions, therefore 3 subplots in LDA plot. On the LDA plot, we can see clearly the separation between classes along each LDA axis and the cohesion within each class because these are the optimization criteria of LDA. But we cannot see the same pattern in the PCA plot as PCA only maximize the overall variance on each PCA axis.
+The ability of a component to separate different classes apart decreases as the number increases for both PCA and LDA becauese we sort the eigenvectors based on the magnitute of eigenvalues. Since the solution of FDA is the eigenvalues of $S_W^{-1}S_B$ and $S_B$ has rank $k-1$, where k is the number of classes, FDA only has $k-1$ solutions, therefore 3 subplots in LDA plot. On the LDA plot, we can see clearly the separation between classes along each LDA axis and the cohesion within each class because these are the optimization criteria of LDA. But we cannot see the same pattern in the PCA plot as PCA only maximize the overall variance on each PCA axis.
 \end{document}
