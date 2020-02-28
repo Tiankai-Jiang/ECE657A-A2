@@ -38,6 +38,9 @@
 % for tables
 \usepackage{tabularx}
 
+% letter under word
+\usepackage{stackengine}
+
 \makeatletter
 \def\BState{\State\hskip-\ALG@thistlm}
 \makeatother
@@ -119,18 +122,19 @@ PCA: 22359.35 microseconds\\
 Dual PCA: 22124.32 microseconds\\
 Under this specific dataset, their performance is basically the same.\\\\
 \textbf{Prove that PCA is the best linear method for reconstruction}\\
-Optimization problem: maximize $tr(U^TSU)$ s.t. $U^TU=I$, where $S=\overline{X}\;\overline{X}^T$ and $\overline{X}$ is the normalized input data.\\
-In other words, maximize the variance of the projection under constraint $U^TU=I$.
+Optimization problem: minimize the reconstruction error. $\stackunder{Minimize}{\textbf{U}}\norm{\overline{X}-UU^T\overline{X}}_F^2$ s.t. $U^TU=I$.
 \begin{equation}
 \begin{split}
-\mathcal{L}(U,\lambda) & = tr(U^TSU) - tr(\lambda(U^TU-I)) \\
-\frac{\partial \mathcal{L}}{\partial U} & = 2SU-2\lambda U \\\\
-let\;\frac{\partial \mathcal{L}}{\partial U} &=0 \\
-SU & = \lambda U 
+\norm{\overline{X}-UU^T\overline{X}}_F^2 & = tr((\overline{X}-UU^T\overline{X})(\overline{X}-UU^T\overline{X})^T)\\
+& = tr((\overline{X}-UU^T\overline{X})(\overline{X}^T-\overline{X}^TUU^T))\\
+& = tr(\overline{X}\overline{X}^T) - 2tr(\overline{X}UU^T\overline{X}^T) + tr(\overline{X}UU^TUU^T\overline{X}^T)\\
+& = tr(\overline{X}\overline{X}^T) - tr(\overline{X}UU^T\overline{X}^T)\\
+& = tr(\overline{X}\overline{X}^T) - tr(U^T\overline{X}^T\overline{X}U)\\
+& = const - tr(U^TSU)
 \end{split}
 \end{equation}
 \noindent
-The result indicates that to maximize the equation, U should take the value of the eigenvector of S with the largest eigenvalue.\\
+The result indicates that minimizing the reconstruction error is equivalent to maximizing the trace of $U^TSU$, which is exactly what PCA is doing. Therefore, PCA is the best linear method for reconstruction.\\
 \textbf{Projected Data With Top 4 Eigenvalues in LDA}
 \vspace*{-1.0cm}
 \begin{center}
@@ -139,5 +143,9 @@ The result indicates that to maximize the equation, U should take the value of t
 \noindent
 LDA1 separates number 0 and number 1. LDA2 separates number 4. LDA2 separates number 3 and LDA4 separates number 2.\\
 Each LDA direction is mainly responsible for separating one or two classes, but that is not the case with each principle component.\\\\
-\textbf{Compare LDA Optimization With PCA Optimization}
+\textbf{Compare LDA Optimization With PCA Optimization}\\
+FDA optimization: $\stackunder{Maximize}{\textbf{U}}\;tr(U^TSU)$ s.t. $U^TS_WU=I$\\
+PCA optimization: $\stackunder{Maximize}{\textbf{U}}\;tr(U^TSU)$ s.t. $U^TU=I$\\
+FDA and PCA can be treated as the same optimization problem with different constraints. Since $S_W$ needs extra information(the label of the data), FDA is supervised linear transformation while PCA is unsupervised.\\
+Since the solution of FDA is the eigenvalues of $S_W^{-1}S_B$ and $S_B$ has rank $k-1$, where k is the number of classes, FDA only has $k-1$ solutions, therefore 3 subplots in LDA plot. On the LDA plot, we can see clearly the separation between classes along each LDA axis and the cohesion within each class because these are the optimization criteria of LDA. But we cannot see the same pattern in the PCA plot as PCA only maximize the overall variance on each PCA axis.
 \end{document}
