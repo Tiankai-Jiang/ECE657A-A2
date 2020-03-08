@@ -152,7 +152,7 @@ print(np.allclose(np.absolute(s.dot(U)), np.absolute(PCA().fit_transform(s))))
 Assume that we have already known the value of $U$, $\Sigma$ and $V^T$, run PCA and dual PCA 1000 times each and get the average runtime.\\
 PCA: 22359.35 microseconds\\
 Dual PCA: 22124.32 microseconds\\
-Under this specific dataset, their performance is basically the same.\\\\
+Under this specific dataset, their performance is basically the same. In theory, dual PCA is only faster than PCA when the number of features $>>$ number of samples because maxtrix multiplication is simpler for Dual PCA under this condition.\\\\
 \textbf{Prove that PCA is the best linear method for reconstruction}\\
 Optimization problem: minimize the reconstruction error. $\stackunder{Minimize}{\textbf{U}}\norm{\overline{X}-UU^T\overline{X}}_F^2$ s.t. $U^TU=I$.
 \begin{equation}
